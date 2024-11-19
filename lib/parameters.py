@@ -1,10 +1,11 @@
 __author__ = 'kaizhuang'
 
 
-### Energy intensities of bioprocesses ###
+# Energy intensities of bioprocesses
 # converted to MJ per unit of operation scale
 
 Ei = {}   # energy intensities of bioprocesses
+
 # fermentation
 Ei['sterilization'] = 0.244 # MJ/L of media
 Ei['agitation'] = 0.0018 #MJ/L/hr
